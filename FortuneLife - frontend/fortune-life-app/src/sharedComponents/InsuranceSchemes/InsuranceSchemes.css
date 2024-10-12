@@ -1,0 +1,27 @@
+:colors {
+  --majorelle-blue: hsl(245, 67%, 59%);
+}
+
+.popular-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.popular-wrapper.right .popular-banner {
+  order: 2; /* Place image on the right for right-aligned schemes */
+}
+
+.popular-wrapper.right .popular-content {
+  order: 1; /* Place content on the left for right-aligned schemes */
+}
+
+.popular-wrapper.left .popular-banner {
+  order: 1; /* Place image on the left for left-aligned schemes */
+}
+
+.popular-wrapper.left .popular-content {
+  order: 2; /* Place content on the right for left-aligned schemes */
+}

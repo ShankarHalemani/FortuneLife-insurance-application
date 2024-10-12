@@ -1,0 +1,52 @@
+.registerContainer {
+  margin-top: 50px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 0;
+}
+
+.registerImage {
+  height: 80%;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.registrationForm {
+  max-width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .registerContainer {
+    margin-top: 20px;
+  }
+
+  .formContainer {
+    padding: 20px;
+  }
+
+  .registerImage {
+    display: none;
+  }
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.btn-primary {
+  background-color: hsl(245, 67%, 59%) !important;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: hsl(245, 67%, 50%) !important;
+}
+
+.form-check-label {
+  margin-left: 5px;
+}
+
+.form-check-input {
+  margin-top: 0.3em;
+}
