@@ -98,7 +98,7 @@ FortuneLife-Application-master/
 <ul>
   <li><strong>fortune_life_city</strong>: Contains information about cities, likely used for customer addresses or location-specific policy management.</li>
   <li><strong>fortune_life_state</strong>: Similar to the city table but for states, providing geographical context to insurance operations.</li>
-  <li><strong>fortune_life_scheme_city</strong> & <strong>fortune_life_scheme_state</strong>: Links insurance schemes to specific cities or states, allowing for regional availability of insurance products.</li>
+  <li><strong>fortune_life_scheme_city</strong> &amp; <strong>fortune_life_scheme_state</strong>: Links insurance schemes to specific cities or states, allowing for regional availability of insurance products.</li>
 </ul>
 
 <h3>Security and Verification</h3>
@@ -128,20 +128,37 @@ FortuneLife-Application-master/
   <li><strong>Clone the Repository</strong>:
     <pre><code>git clone https://github.com/ShankarHalemani/FortuneLife-Application.git</code></pre>
   </li>
-  <li><strong>Navigate to the Frontend Directory</strong>:
-    <pre><code>cd FortuneLife-Application-master/FortuneLife-frontend/fortune-life-app</code></pre>
+  <li><strong>Start the Backend</strong>:
+    <ol>
+      <li><strong>Import the Backend Project</strong>:
+        <p>Open Eclipse or IntelliJ IDEA and import the <code>FortuneLife-backend</code> project as a Maven project.</p>
+      </li>
+      <li><strong>Build and Run the Project</strong>:
+        <p>Build the project and run the application by executing the <code>Application.java</code> file.</p>
+      </li>
+      <li><strong>Configure Application Properties</strong>:
+        <p>If necessary, modify the port settings in the <code>application.properties</code> file.</p>
+      </li>
+    </ol>
   </li>
-  <li><strong>Install Dependencies</strong>:
-    <pre><code>npm install</code></pre>
-  </li>
-  <li><strong>Run the Application</strong>:
-    <pre><code>npm start</code></pre>
+  <li><strong>Start the Frontend</strong>:
+    <ol>
+      <li><strong>Navigate to the Frontend Directory</strong>:
+        <pre><code>cd FortuneLife-Application-master/FortuneLife-frontend/fortune-life-app</code></pre>
+      </li>
+      <li><strong>Install Dependencies</strong>:
+        <pre><code>npm install</code></pre>
+      </li>
+      <li><strong>Run the Application</strong>:
+        <pre><code>npm start</code></pre>
+      </li>
+    </ol>
   </li>
 </ol>
 
 <h2 id="usage">Usage</h2>
 <ul>
-  <li><strong>Start the Application</strong>: Run <code>npm start</code> to launch the application. Access it at <code>http://localhost:3000</code>.</li>
+  <li><strong>Start the Application</strong>: Run <code>npm start</code> to launch the application. Access it at <code>http://localhost:3000</code>. Ensure the backend is running to handle API requests.</li>
   <li><strong>Admin Dashboard</strong>: Navigate to manage users, policies, payments, claims, commissions, and reports.</li>
   <li><strong>Payments</strong>: Use the payment components to handle policy transactions. Integrates with external APIs for processing.</li>
   <li><strong>Reports</strong>: Generate reports to analyze customer data, policy performance, and agent activity.</li>
