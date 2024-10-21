@@ -12,8 +12,6 @@
   <li><a href="#usage">Usage</a></li>
   <li><a href="#components-breakdown">Components Breakdown</a></li>
   <li><a href="#scripts">Scripts</a></li>
-  <li><a href="#contributing">Contributing</a></li>
-  <li><a href="#license">License</a></li>
 </ul>
 
 <h2 id="features">Features</h2>
@@ -180,4 +178,5 @@ FortuneLife-Application-master/
   <li><code>npm run build</code>: Builds the app for production.</li>
 </ul>
 
+<h2>Database Schema Design</h2>
 <img src="fotuneLife.png" alt="FortuneLife Database Design">
